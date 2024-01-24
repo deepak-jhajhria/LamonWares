@@ -62,3 +62,14 @@
         transform: scale(1);
     }
 }
+
+
+
+/* Add styles for the fixed navbar */
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
