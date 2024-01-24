@@ -18,7 +18,7 @@ function App() {
     setTimeout(() => {
       setScreenLoading(false);
       document.body.classList.remove("overflow-hidden")
-    }, 3500);
+    }, 0);
   }, []);
   return (
     <div>
