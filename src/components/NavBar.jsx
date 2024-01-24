@@ -44,7 +44,7 @@ const NavBar = () => {
                         <a href="http://"><img className="max-sm:max-w-[70px] logo" src={logo} alt="logo" /></a>
                         <p className=" text-black leading-normal text-sm sm:text-[15px] font-semibold font-Poppins relative after:absolute after:-bottom-1 after:w-[80%] after:h-[2px] after:rounded-full after:bg-[#B00000] after:left-[10%]">Our Services</p>
                     </div>
-                    <div className={`${isOpen ? "right-0" : "-right-full"} flex items-center gap-[55px] mobileview lg:justify-between lg:ml-20 xl:ml-[135px] lg:w-[60%] xl:w-[67%] z-50`}>
+                    <div className={`${isOpen ? "right-0" : "-right-[200%]"} flex items-center gap-[55px] mobileview lg:justify-between lg:ml-20 xl:ml-[135px] lg:w-[60%] xl:w-[67%] z-50`}>
                         <ul className="flex max-lg:flex-col items-center gap-8">
                             <li><NavLink to={"/about"} onClick={RemoveOverflow} className={`${NavLinks}`}>About</NavLink></li>
                             <li><NavLink to={"/blogs"} onClick={RemoveOverflow} className={`${NavLinks}`}>Blog&News</NavLink></li>
