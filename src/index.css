@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+
+  .mobileview {
+    @apply max-lg:fixed duration-300 max-lg:w-full max-md:max-w-full max-lg:max-w-[400px] max-lg:flex-col max-lg:bg-white top-0 max-md:text-black max-lg:items-center max-lg:justify-center max-lg:min-h-screen max-lg:z-40
+  }
+}
