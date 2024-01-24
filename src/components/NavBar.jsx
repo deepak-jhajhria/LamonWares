@@ -21,10 +21,9 @@ const NavBar = () => {
     //     // gsap.from(".link" ,{stagger: 0.1 ,y:100})
     // })
     window.onscroll = function () { scrollFunction() };
-
     function scrollFunction() {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-            document.getElementById("navbar").classList.remove("sm:py-10")
+            document.getElementById("navbar").classList.remove("lg:py-10")
             document.getElementById("navbar").classList.add("py-5")
             document.getElementById("nav").classList.add("fixed")
             document.getElementById("nav").classList.add("-translate-x-1/2")
@@ -33,13 +32,13 @@ const NavBar = () => {
             document.getElementById("nav").classList.remove("-translate-x-1/2")
             document.getElementById("nav").classList.remove("fixed")
             document.getElementById("navbar").classList.remove("py-5")
-            document.getElementById("navbar").classList.add("sm:py-10")
+            document.getElementById("navbar").classList.add("lg:py-10")
             document.getElementById("navbar").classList.add("py-5")
         }
     }
     return (
-        <nav id='nav'  className=" bg-white duration-300 z-40 left-1/2 w-full">
-            <div id='navbar' className="container max-w-[1220px] py-5 sm:py-10 z-40 bg-white">
+        <nav id='nav'  className=" bg-white duration-300 z-40 top-0 left-1/2 w-full">
+            <div id='navbar' className="container max-w-[1220px] py-5 lg:py-10 z-40 bg-white">
                 <div className="flex w-full justify-between">
                     <div className="flex items-center gap-5 sm:gap-10 lg:gap-16">
                         <a href="http://"><img className="max-sm:max-w-[70px] logo" src={logo} alt="logo" /></a>

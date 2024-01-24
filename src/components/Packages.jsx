@@ -21,7 +21,7 @@ const Packages = () => {
         <p className='text-black font-Poppins text-[25px] font-normal text-center leading-[25px] mt-[38px]'>Choose the package that suits you</p>
         <div className='flex items-center justify-center my-[57px] flex-col gap-6 sm:gap-0 sm:flex-row'>
           <p className='text-black font-Poppins text-[25px] font-normal text-center leading-[25px]'>Monthly</p>
-          <label class="relative inline-flex items-center cursor-pointer ml-8 mr-7">
+          <label class="relative inline-flex items-center cursor-grab ml-8 mr-7">
             <input onClick={togglePrice} type="checkbox" value="" class="sr-only peer" />
             <div  class="group peer ring-0 bg-[#B00000]   rounded-full outline-none duration-300 after:duration-300 w-[93px] h-[50px]  shadow-md peer-focus:outline-none   after:rounded-full after:absolute after:bg-gray-50 after:outline-none after:h-[30px] after:w-[30px] after:top-[9px] after:left-[9px] after:-rotate-180 after:flex after:justify-center after:items-center peer-checked:after:translate-x-12 peer-hover:after:scale-95 peer-checked:after:rotate-0">
             </div>
@@ -47,7 +47,7 @@ const Packages = () => {
                     toggel ? (<p className=' text-black text-4xl sm:text-[42px] font-semibold font-Poppins leading-8 mt-5 md:mt-7'>{items.yearlyPrice}</p>) : (<p className=' text-black text-4xl sm:text-[42px] font-semibold font-Poppins leading-8 mt-5 md:mt-7'>{items.price}</p>)
                   }
                   <span className='text-black text-sm font-Poppins font-light'>Per {toggel ? "year":"month"}</span>
-                  <button className=' text-black font-semibold font-Poppins text-sm text-center w-full bg-transparent border-[2px] border-black rounded-xl leading-8 py-[9px] my-6 sm:my-8 md:my-[35px]'>Choose this Plan</button>
+                  <button className=' text-black duration-300 hover:text-[#B00000] hover:border-[#B00000] hover:shadow font-semibold font-Poppins text-sm text-center w-full bg-transparent border-[2px] border-black rounded-xl leading-8 py-[9px] my-6 sm:my-8 md:my-[35px]'>Choose this Plan</button>
                   <div className='flex flex-col sm:flex-row lg:flex-col justify-between sm:justify-around lg:justify-start'>
                     <div>
                       <p className='flex items-center text-[#808080] text-sm sm:text-base font-Inter font-bold gap-4 sm:gap-6'><span><RightIcon /></span>2GB SSD</p>
