@@ -61,7 +61,7 @@ const FavTools = () => {
                         Nigerian Websites</h2>
                     <p className='text-[#18191F] text-base sm:text-lg font-Inter font-normal leading-[32px] max-w-[573px] mt-3'>Connect LemonWares with your favourite tools that you use daily and keep things on track.</p>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 items-center justify-center max-sm:gap-5'>
+                <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 items-center justify-center max-xs:gap-0 max-sm:gap-5'>
                     <div className='flex justify-center lg:justify-end'>
                         <img className=' duration-300 hover:brightness-200 hover:scale-110' src={Image1} alt='Images ' />
                     </div>

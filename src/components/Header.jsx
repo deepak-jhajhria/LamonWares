@@ -27,25 +27,25 @@ const Header = () => {
                         <div className='mt-[30px]'>
                             {
                                 first === "tab1" && <div>
-                                    <h1 className='text-[#2E2E2E] font-Poppins font-bold text-[42px] sm:text-[50px] md:text-[64px] md:leading-[77px]'>Premium Web Hosting for Your Website</h1>
+                                    <h1 className='text-[#2E2E2E] font-Poppins font-bold text-[36px] sm:text-[50px] md:text-[64px] md:leading-[77px]'>Premium Web Hosting for Your Website</h1>
                                     <p className='text-[#808080] text-base font-Inter font-normal mt-4 sm:mt-6 md:mt-7 lg:mt-[34px] tracking-[0.8px] max-w-[448px] leading-7'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                                 </div>
                             }
                             {
                                 first === "tab2" && <div>
-                                    <h2 className='text-[#2E2E2E] font-Poppins font-bold text-[42px] sm:text-[50px] md:text-[64px] md:leading-[77px]'>Lorem ipsum dolor sit amet consectetur.</h2>
+                                    <h2 className='text-[#2E2E2E] font-Poppins font-bold text-[36px] sm:text-[50px] md:text-[64px] md:leading-[77px]'>Lorem ipsum dolor sit amet consectetur.</h2>
                                     <p className='text-[#808080] text-base font-Inter font-normal mt-4 sm:mt-6 md:mt-7 lg:mt-[34px] tracking-[0.8px] max-w-[448px] leading-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quaerat corrupti delectus </p>
                                 </div>
                             }
                             {
                                 first === "tab3" && <div>
-                                    <h2 className='text-[#2E2E2E] font-Poppins font-bold text-[42px] sm:text-[50px] md:text-[64px] md:leading-[77px]'>Adipisicing elit. Magnam, sint. Non,</h2>
+                                    <h2 className='text-[#2E2E2E] font-Poppins font-bold text-[36px] sm:text-[50px] md:text-[64px] md:leading-[77px]'>Adipisicing elit. Magnam, sint. Non,</h2>
                                     <p className='text-[#808080] text-base font-Inter font-normal mt-4 sm:mt-6 md:mt-7 lg:mt-[34px] tracking-[0.8px] max-w-[448px] leading-7'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                                 </div>
                             }
                             {
                                 first === "tab4" && <div>
-                                    <h2 className='text-[#2E2E2E] font-Poppins font-bold text-[42px] sm:text-[50px] md:text-[64px] md:leading-[77px]'>Premium Web Hosting for Your Website</h2>
+                                    <h2 className='text-[#2E2E2E] font-Poppins font-bold text-[36px] sm:text-[50px] md:text-[64px] md:leading-[77px]'>Premium Web Hosting for Your Website</h2>
                                     <p className='text-[#808080] text-base font-Inter font-normal mt-4 sm:mt-6 md:mt-7 lg:mt-[34px] tracking-[0.8px] max-w-[448px] leading-7'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                                 </div>
                             }

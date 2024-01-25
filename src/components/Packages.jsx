@@ -15,7 +15,7 @@ const Packages = () => {
   function tabchange(tabs) {
     setfirst(tabs)
   } return (
-    <div className='container max-w-[1120px] flex flex-col mt-7 xs:mt-12 sm:mt-16 md:mt-20 lg:mt-[96px]'>
+    <div className='container max-w-[1120px] flex flex-col mt-5 xs:mt-8 sm:mt-16 md:mt-20 lg:mt-[96px]'>
       <div className='flex flex-col max-w-[856px] mx-auto'>
         <h2 className='text-black text-center font-Poppins font-semibold text-[27px] xs:text-[34px] sm:text-[44px] md:text-[50px] sm:leading-[60px] max-w-[650px]'>Ready to get started with Lemon Wares?</h2>
         <p className='text-black font-Poppins text-xl sm:text-[25px] font-normal text-center sm:leading-[25px] mt-3 xs:mt-5 sm:mt-7 md:mt-[38px]'>Choose the package that suits you</p>
