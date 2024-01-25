@@ -44,7 +44,7 @@ const Clouds = () => {
         {
           Items.map((items, index) => (
             <div key={index} className='flex w-full justify-center'>
-              <div className='flex flex-col justify-center items-center max-w-[259px]'>
+              <div className='flex flex-col group justify-center items-center max-w-[259px]'>
                 {items.Svg}
                 <h2 className='text-black font-bold text-lg md:text-xl mt-[17px] font-Poppins leading-normal text-center'>{items.title}</h2>
                 <p className='text-black text-xs font-Poppins text-center font-light mt-1 leading-normal'>{items.para}</p>
