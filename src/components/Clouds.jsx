@@ -21,22 +21,22 @@ const Clouds = () => {
         </div>
         <div className='grid grid-cols-2 sm:grid-cols-3 max-xs:mt-2 max-sm:mt-5 max-lg:mt-7 lg:grid-cols-2 xl:grid-cols-3 items-center justify-center gap-5'>
           <div className='flex justify-center lg:justify-end'>
-            <img src={image1} alt='Images ' />
+            <img className='duration-300 hover:brightness-200 hover:scale-110' src={image1} alt='Images ' />
           </div>
           <div className='flex justify-center lg:justify-end'>
-            <img src={image2} alt='Images ' />
+            <img className='duration-300 hover:brightness-200 hover:scale-110' src={image2} alt='Images ' />
           </div>
           <div className='flex justify-center lg:justify-end'>
-            <img src={image3} alt='Images ' />
+            <img className='duration-300 hover:brightness-200 hover:scale-110' src={image3} alt='Images ' />
           </div>
           <div className='flex justify-center lg:justify-end'>
-            <img src={image4} alt='Images ' />
+            <img className='duration-300 hover:brightness-200 hover:scale-110' src={image4} alt='Images ' />
           </div>
           <div className='flex justify-center lg:justify-end'>
-            <img src={image5} alt='Images ' />
+            <img className='duration-300 hover:brightness-200 hover:scale-110' src={image5} alt='Images ' />
           </div>
           <div className='flex justify-center lg:justify-end'>
-            <img src={image6} alt='Images ' />
+            <img className='duration-300 hover:brightness-200 hover:scale-110' src={image6} alt='Images ' />
           </div>
         </div>
       </div>

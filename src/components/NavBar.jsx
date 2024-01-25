@@ -3,8 +3,6 @@ import { PhoneCallIcon } from "./Icons"
 import { useState } from "react"
 import { Sling as Hamburger } from 'hamburger-react'
 import { NavLink } from "react-router-dom";
-import { useGSAP } from '@gsap/react';
-import gsap from 'gsap';
 const NavBar = () => {
     let NavLinks = "text-black link leading-normal text-sm sm:text-[15px] font-semibold font-Poppins relative after:duration-300 after:absolute after:-bottom-1 transition duration-300 after:w-0 hover:after:w-[80%] after:h-[1px] after:rounded-full after:bg-[#B00000] after:left-[10%]"
     const [isOpen, setOpen] = useState(false);
@@ -16,18 +14,20 @@ const NavBar = () => {
         setOpen(false)
         document.body.classList.remove("overflow-hidden")
     }
-    // useGSAP(()=>{
-    //     gsap.from(".logo",{y:300,opacity:0})
-    //     // gsap.from(".link" ,{stagger: 0.1 ,y:100})
-    // })
-    window.onscroll = function () { scrollFunction() };
+    window.onscroll = function () { scrollFunction(); progressBarScroll(); };
+    function progressBarScroll() {
+        let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+            height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+            scrolled = (winScroll / height) * 100;
+        document.getElementById("progressBar").style.width = scrolled + "%";
+    }
     function scrollFunction() {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
             document.getElementById("navbar").classList.remove("lg:py-10")
             document.getElementById("navbar").classList.add("py-5")
             document.getElementById("nav").classList.add("fixed")
             document.getElementById("nav").classList.add("-translate-x-1/2")
-            
+
         } else {
             document.getElementById("nav").classList.remove("-translate-x-1/2")
             document.getElementById("nav").classList.remove("fixed")
@@ -37,7 +37,7 @@ const NavBar = () => {
         }
     }
     return (
-        <nav id='nav'  className=" bg-white duration-300 z-40 top-0 left-1/2 w-full">
+        <nav id='nav' className=" bg-white duration-300 z-40 top-0 left-1/2 w-full">
             <div id='navbar' className="container max-w-[1220px] py-5 lg:py-10 z-40 bg-white">
                 <div className="flex w-full justify-between">
                     <div className="flex items-center gap-5 sm:gap-10 lg:gap-16">
@@ -63,6 +63,11 @@ const NavBar = () => {
                     <div className='w-full bg-[rgba(0,0,0,0.78)] flex h-full fixed top-0 left-0 z-30'>
                     </div>
                 )}
+            </div>
+            <div id='scroll' class="fixed top-[83px] sm:top-[95px] w-full z-10">
+                <div class="h-[6px]  sm:h-2 w-full bg-white">
+                    <div class="bg-[#B00000] rounded-r-full h-[5px] sm:h-[7px] w-0" id="progressBar"></div>
+                </div>
             </div>
         </nav>
     )

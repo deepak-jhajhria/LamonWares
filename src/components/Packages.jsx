@@ -38,7 +38,7 @@ const Packages = () => {
           {
             Items.map((items, index) => (
               <div key={index} className=' bg-white shadow-[0_0_4px_0_rgba(0,0,0,0.25)] border-[1.5px] border-[#C4C4C4] rounded-2xl lg:max-w-[299px] w-full h-auto'>
-                <div className='p-[34px]'>
+                <div className='p-[26px] sm:p-[34px]'>
                   {
                     toggel ? (<h2 className=' text-[28px] font-Poppins font-semibold text-black leading-6'>{items.yearPlan}</h2>) : (<h2 className=' text-[28px] font-Poppins font-semibold text-black leading-6'>{items.plan}</h2>)
                   }

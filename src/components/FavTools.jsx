@@ -16,7 +16,7 @@ const FavTools = () => {
                     <div className='relative max-sm:pl-16 max-lg:pl-[100px]'>
                         <h2 className='text-[#18191F] text-[38px] xs:text-[40px] sm:text-5xl font-extrabold sm:!leading-[64px] font-Inter max-w-[445px]'>Real Stories from Real Customers</h2>
                         <p className='text-[#18191F] text-lg font-Inter font-normal leading-[32px] max-w-[573px] mt-2 sm:mt-3'>Get inspired by these stories.</p>
-                        <span className=' absolute top-0 left-0 max-sm:translate-x-0 lg:-translate-x-[67%] -translate-y-[40%] sm:-translate-y-[46%]'><QueteMarkIcon /></span>
+                        <span className=' absolute top-0 left-0 max-sm:translate-x-0 lg:-translate-x-[67%] -translate-y-[40%] sm:-translate-y-[46%] -z-20'><QueteMarkIcon /></span>
                     </div>
                     <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] rounded-lg lg:max-w-[350px] w-full mt-4 lg:mt-6'>
                         <div className='py-2 px-8 flex gap-4'>
@@ -30,7 +30,7 @@ const FavTools = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col mt-5'>
+                <div className='flex flex-col lg:mt-5'>
                     <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] rounded-lg lg:max-w-[445px] w-full mt-6'>
                         <div className='pt-10 px-8 flex gap-4'>
                             <span className='mt-20'><QueteMarkSmall /></span>
@@ -63,22 +63,22 @@ const FavTools = () => {
                 </div>
                 <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 items-center justify-center max-sm:gap-5'>
                     <div className='flex justify-center lg:justify-end'>
-                        <img src={Image1} alt='Images ' />
+                        <img className=' duration-300 hover:brightness-200 hover:scale-110' src={Image1} alt='Images ' />
                     </div>
                     <div className='flex justify-center lg:justify-end'>
-                        <img src={Image2} alt='Images ' />
+                        <img className=' duration-300 hover:brightness-200 hover:scale-110' src={Image2} alt='Images ' />
                     </div>
                     <div className='flex justify-center lg:justify-end'>
-                        <img src={Image3} alt='Images ' />
+                        <img className=' duration-300 hover:brightness-200 hover:scale-110' src={Image3} alt='Images ' />
                     </div>
                     <div className='flex justify-center lg:justify-end'>
-                        <img src={Image4} alt='Images ' />
+                        <img className=' duration-300 hover:brightness-200 hover:scale-110' src={Image4} alt='Images ' />
                     </div>
                     <div className='flex justify-center lg:justify-end'>
-                        <img src={Image5} alt='Images ' />
+                        <img className=' duration-300 hover:brightness-200 hover:scale-110' src={Image5} alt='Images ' />
                     </div>
                     <div className='flex justify-center lg:justify-end'>
-                        <img src={Image6} alt='Images ' />
+                        <img className=' duration-300 hover:brightness-200 hover:scale-110' src={Image6} alt='Images ' />
                     </div>
                 </div>
             </div>
