@@ -41,7 +41,7 @@ const NavBar = () => {
             <div id='navbar' className="container max-w-[1220px] py-5 lg:py-10 z-40 bg-white">
                 <div className="flex w-full justify-between">
                     <div className="flex items-center gap-5 sm:gap-10 lg:gap-16">
-                        <a href="http://"><img className="max-sm:max-w-[70px] logo" src={logo} alt="logo" /></a>
+                        <NavLink to={"/"}><img className="max-sm:max-w-[70px] logo" src={logo} alt="logo" /></NavLink>
                         <p className=" text-black leading-normal text-sm sm:text-[15px] font-semibold font-Poppins relative after:absolute after:-bottom-1 after:w-[80%] after:h-[2px] after:rounded-full after:bg-[#B00000] after:left-[10%]">Our Services</p>
                     </div>
                     <div className={`${isOpen ? "right-0" : "-right-[200%]"} flex items-center gap-[55px] mobileview lg:justify-between lg:ml-20 xl:ml-[135px] lg:w-[60%] xl:w-[67%] z-50`}>

@@ -50,8 +50,8 @@ const Header = () => {
                                 </div>
                             }
                             <div className='flex max-xs:flex-col mt-8 sm:mt-10 md:mt-12 lg:mt-[60px] gap-4 xs:gap-6'>
-                                <button onClick={() => setIsOpen(true)} className='bg-[#B00000] duration-300 hover:scale-95 hover:rounded-xl rounded-lg sm:shadow-[0_0_64px_0_rgba(176,0,0,0.30)] text-white text-sm font-Poppins font-normal py-3 px-[13px]'>Create an Account</button>
-                                <button className='bg-transparent duration-300 hover:scale-95 hover:rounded-xl border border-black rounded-lg  text-black text-sm font-Poppins font-normal py-3 px-[13px]'>Choose your plan</button>
+                                <button onClick={() => setIsOpen(true)} className='bg-[#B00000] duration-300 hover:bg-white hover:text-black  rounded-lg sm:shadow-[0_0_64px_0_rgba(176,0,0,0.30)] text-white text-sm font-Poppins font-normal py-3 px-[13px]'>Create an Account</button>
+                                <button className='bg-transparent duration-300 hover:bg-[#B00000] hover:text-white hover:border-[#B00000]  border border-black rounded-lg  text-black text-sm font-Poppins font-normal py-3 px-[13px]'>Choose your plan</button>
                             </div>
                         </div>
                     </div>

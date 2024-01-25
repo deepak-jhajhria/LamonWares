@@ -13,12 +13,12 @@ const FavTools = () => {
         <div className='container max-w-[1220px] py-5 sm:py-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2 my-10 sm:my-16 lg:my-20 gap-4 sm:gap-6 lg:gap-[30px]'>
                 <div className='flex flex-col lg:items-end lg:pl-[100px]'>
-                    <div className='relative max-sm:pl-16 max-lg:pl-[100px]'>
-                        <h2 className='text-[#18191F] text-[38px] xs:text-[40px] sm:text-5xl font-extrabold sm:!leading-[64px] font-Inter max-w-[445px]'>Real Stories from Real Customers</h2>
-                        <p className='text-[#18191F] text-lg font-Inter font-normal leading-[32px] max-w-[573px] mt-2 sm:mt-3'>Get inspired by these stories.</p>
-                        <span className=' absolute top-0 left-0 max-sm:translate-x-0 lg:-translate-x-[67%] -translate-y-[40%] sm:-translate-y-[46%] -z-20'><QueteMarkIcon /></span>
+                    <div className='relative max-xs:pl-9 max-sm:pl-16 max-lg:pl-[100px]'>
+                        <h2 className='text-[#18191F] text-[27px] xs:text-[40px] sm:text-5xl font-extrabold sm:!leading-[64px] font-Inter max-w-[445px]'>Real Stories from Real Customers</h2>
+                        <p className='text-[#18191F] text-lg font-Inter font-normal xs:leading-[32px] max-w-[573px] mt-2 sm:mt-3'>Get inspired by these stories.</p>
+                        <span className=' absolute top-0 left-0 max-sm:translate-x-0 lg:-translate-x-[67%] -translate-y-[43%] xs:-translate-y-[40%] sm:-translate-y-[46%] -z-20'><QueteMarkIcon /></span>
                     </div>
-                    <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] rounded-lg lg:max-w-[350px] w-full mt-4 lg:mt-6'>
+                    <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] duration-300 hover:shadow-[0_0_50px_15px_rgba(41,41,42,0.07)] rounded-lg lg:max-w-[350px] w-full mt-4 lg:mt-6'>
                         <div className='py-2 px-8 flex gap-4'>
                             <span className='mt-20'><QueteMarkSmall /></span>
                             <div className='flex flex-col'>
@@ -31,7 +31,7 @@ const FavTools = () => {
                     </div>
                 </div>
                 <div className='flex flex-col lg:mt-5'>
-                    <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] rounded-lg lg:max-w-[445px] w-full mt-6'>
+                    <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] duration-300 hover:shadow-[0_0_50px_15px_rgba(41,41,42,0.07)] rounded-lg lg:max-w-[445px] w-full mt-6'>
                         <div className='pt-10 px-8 flex gap-4'>
                             <span className='mt-20'><QueteMarkSmall /></span>
                             <div className='flex flex-col'>
@@ -42,7 +42,7 @@ const FavTools = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] rounded-lg lg:max-w-[350px] w-full mt-8'>
+                    <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] duration-300 hover:shadow-[0_0_50px_15px_rgba(41,41,42,0.07)] rounded-lg lg:max-w-[350px] w-full mt-8'>
                         <div className='pt-10 px-8 flex gap-4'>
                             <span className='mt-20'><QueteMarkSmall /></span>
                             <div className='flex flex-col'>
