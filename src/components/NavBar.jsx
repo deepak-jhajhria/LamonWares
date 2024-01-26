@@ -37,7 +37,7 @@ const NavBar = () => {
         }
     }
     return (
-        <nav id='nav' className=" bg-white duration-300 z-40 top-0 left-1/2 w-full">
+        <nav id='nav' className=" bg-white z-40 top-0 left-1/2 w-full">
             <div id='navbar' className="container max-w-[1220px] py-5 lg:py-10 z-40 bg-white">
                 <div className="flex w-full justify-between">
                     <div className="flex items-center gap-5 sm:gap-10 lg:gap-16">
